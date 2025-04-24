@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="WEB" bpmnAble="false" formTarget="src/main/webapp/views/logged/component/dateTime.view.html" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="-59.90000000000009" scrolly="-111.60000000000002" target="}y6W9_,15ThRD%MJ`[#p"/>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" id="9J3Q(=/ZA!^dcM^8zO=U" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-22" y="-22">
+    <mutation>
+      <arg id="997ef5dc" name="date"/>
+    </mutation>
+    <field customattributes="" name="NAME">calendarProperty</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="kJt$R}@BAN,owrj@dC2n" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">formattedDate</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="z.QJ:MDf$rs5#BMA14h}" multilayer="false" namespace="cronapi.dateTime.newDate" origintype="procedures_callreturn" output="true" returntype="ObjectType.DATETIME" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ENova%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20criar%20nova%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Ano%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20M%C3%AAs%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Dia%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Hora%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Minuto%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Segundo%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.newDate','cronapi.dateTime.newDate')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.dateTime.newDate}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Ano"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Mês"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Dia"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Hora"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Minuto"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Segundo"/>
+            </mutation>
+            <value name="ARG0">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="[V*f:XPqp{|,s=74!xX~" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">2000</field>
+              </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="}94m-a|hNgCeO_{[i|+l" origintype="text_getSubstring" output="true" tooltip="Retorna o trecho de texto especificado." type="text_getSubstring">
+                <mutation at1="true" at2="false"/>
+                <field customattributes="" name="WHERE1">FROM_START</field>
+                <field customattributes="" name="WHERE2">LAST</field>
+                <value name="STRING">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="jt,=zBHzwwTBKzW|@+Kx" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">date</field>
+                  </block>
+                </value>
+                <value name="AT1">
+                  <block asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="zo)_,.x]([./j2F68olH" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">7</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG1">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="c*9ZUPzgk]a/=5La=Xgt" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">5</field>
+              </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="5!tFTyJZRsm}l2CYC7{E" origintype="text_getSubstring" output="true" tooltip="Retorna o trecho de texto especificado." type="text_getSubstring">
+                <mutation at1="true" at2="true"/>
+                <field customattributes="" name="WHERE1">FROM_START</field>
+                <field customattributes="" name="WHERE2">FROM_START</field>
+                <value name="STRING">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="mcn}tPiu/eF-PY]sjJU=" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">date</field>
+                  </block>
+                </value>
+                <value name="AT1">
+                  <block asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="u8%G5sl6}9O;quTRk2Sl" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">4</field>
+                  </block>
+                </value>
+                <value name="AT2">
+                  <block asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="uhc=;WQS5%V,en?SsFvw" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">5</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="a3R2w$Bp6W;j4h`^]T11" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">13</field>
+              </shadow>
+              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="of[HBYkJt?7=0ippe8`M" origintype="text_getSubstring" output="true" tooltip="Retorna o trecho de texto especificado." type="text_getSubstring">
+                <mutation at1="false" at2="true"/>
+                <field customattributes="" name="WHERE1">FIRST</field>
+                <field customattributes="" name="WHERE2">FROM_START</field>
+                <value name="STRING">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="N/^(P7$n.CEC]y8+1Nmo" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">date</field>
+                  </block>
+                </value>
+                <value name="AT2">
+                  <block asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="C;S15#P=ge}F#g84cQ|~" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG3">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="xc/#eu#7PhXy)[g4X=EI" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="ARG4">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="$1iT*2VH7?ILdHLQ`d/N" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="ARG5">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="8#[~$VH65,=_D54Phcxw" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="9J3Q(=/ZA!^dcM^8zO=U" id="J?uV^|v|wGyUUHxmGx5[" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field customattributes="" name="VAR">formattedDate</field>
+      </block>
+    </value>
+  </block>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" id="6/GEftDrCsOnVUoSe3Yo" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-497" y="117">
+    <mutation>
+      <arg id="c5245f65" name="formatOption"/>
+    </mutation>
+    <field customattributes="" name="NAME">formattedSelectDates</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="}pvVA=;.LxDW]yU0kM!@" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">list</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#917731" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="JR~8N5v242++?8o~iUQ1" multilayer="false" namespace="cronapi.map.createMap" origintype="maps_create_with" output="true" returntype="ObjectType.MAP" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20Mapa%20com%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20um%20objeto%20Mapa%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Valor(es)%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Valores%20a%20serem%20adicionados%20no%20Mapa%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.map.createMap','cronapi.map.createMap')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="maps_create_with">
+            <mutation name="{{cronapi.map.createMap}}">
+              <arg name="valores"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="/TR/^uGj+3p}kXo|:NRw" multilayer="false" namespace="cronapi.calendar.getCalendarSelectDates" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20datas%20selecionadas%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EObt%C3%A9m%20a%20lista%20de%20datas%20selecionadas%20do%20calend%C3%A1rio.%20(Dispon%C3%ADvel%20apenas%20caso%20o%20modo%20de%20sele%C3%A7%C3%A3o%20do%20calend%C3%A1rio%20esteja%20definido%20para%20'M%C3%BAltipla')%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.getCalendarSelectDates','cronapi.calendar.getCalendarSelectDates')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.calendar.getCalendarSelectDates}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="oi((Nf*b#!H/{O/*,:iO" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                    <field customattributes="" name="SELECT">calendar</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="K%yI?#HxAstdVw#`)M4e" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+            <field customattributes="" name="VAR">formattedList</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="G])aCAZv35IdQ3w{/;uw" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="0"/>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#5ba55b" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="h_eZjt_cI{`y~^i1;II}" origintype="controls_forEach" output="false" tooltip="Faça algumas instruções várias vezes." type="controls_forEach">
+                <field customattributes="" name="VAR">date</field>
+                <value name="LIST">
+                  <block asynccall="false" colour="#917731" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="784*ZTSE,GA|yHe8/lCc" multilayer="false" namespace="cronapi.map.getMapValueByPath" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Campo%20do%20Mapa%20por%20Caminho%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20Campo%20do%20Mapa%20por%20Caminho%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%20:%20Mapa%3C/span%3E%3Cdiv%3E%20Mapa%20que%20ser%C3%A1%20buscado%20o%20Campo%3C/div%3E%3Cspan%3E%20-%20Caminho%20:%20Texto%3C/span%3E%3Cdiv%3E%20Caminho%20que%20ser%C3%A1%20buscado,%20ex:%20documento.rg.emissor%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.map.getMapValueByPath','cronapi.map.getMapValueByPath')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.map.getMapValueByPath}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.MAP" name="Mapa"/>
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Caminho"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="eP4NdXwAoNR)bI|Dw]~4" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">list</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="]e;$+9D5cw#+CiSxVUx+" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                        <field customattributes="" name="TEXT"/>
+                      </shadow>
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="q}{lmEv-yN$*D=DqX2ee" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">valores</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="V5Nn%8Wc^EaaORnB-t5/" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                    <field customattributes="" name="VAR">formattedList</field>
+                    <value name="VALUE">
+                      <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="fn*ZGlO4rZ}/HQo](~Lh" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+                        <mutation items="2"/>
+                        <value name="ADD0">
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="7Dbri:pyL2^.6bp[D6RZ" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">formattedList</field>
+                          </block>
+                        </value>
+                        <value name="ADD1">
+                          <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id=")Ad4Qe|C0+$I+0r[~s/a" multilayer="false" namespace="cronapi.dateTime.formatDateTime" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EFormatar%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20formatar%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Formato%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.formatDateTime','cronapi.dateTime.formatDateTime')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                            <mutation name="{{cronapi.dateTime.formatDateTime}}" return-raw-type="undefined">
+                              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Formato"/>
+                            </mutation>
+                            <value name="ARG0">
+                              <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="z.hA(|c?Zu{Rl*YkU8,D" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                                <field customattributes="" name="VAR">date</field>
+                              </block>
+                            </value>
+                            <value name="ARG1">
+                              <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="oSb[M41j8]d+xbiP|]7|" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                                <field customattributes="" name="TEXT">DD/MM/YYYY</field>
+                              </shadow>
+                              <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="@TB{Y#uTa{`Y:r_+$Q9e" origintype="text_join" output="true" tooltip="Criar um pedaço de texto juntando qualquer número de itens." type="text_join">
+                                <mutation items="2"/>
+                                <value name="ADD0">
+                                  <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="RPW0t^tT#HdERurFt.O." origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                                    <field customattributes="" name="TEXT">, </field>
+                                  </block>
+                                </value>
+                                <value name="ADD1">
+                                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id=".9XV4mC*X`lTAt9UL=~r" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                                    <field customattributes="" name="VAR">formatOption</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block asynccall="false" colour="#5ba58c" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="d(^ipf[J0NF^@!^C53r5" origintype="text_getSubstring" output="true" tooltip="Retorna o trecho de texto especificado." type="text_getSubstring">
+        <mutation at1="true" at2="false"/>
+        <field customattributes="" name="WHERE1">FROM_START</field>
+        <field customattributes="" name="WHERE2">LAST</field>
+        <value name="STRING">
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="~5aoc+q8Ld.^I5=Y1?[m" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+            <field customattributes="" name="VAR">formattedList</field>
+          </block>
+        </value>
+        <value name="AT1">
+          <block asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="6/GEftDrCsOnVUoSe3Yo" id="+Zz$$=OP/BaEBEl10xN*" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field customattributes="" name="NUM">3</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" id="}y6W9_,15ThRD%MJ`[#p" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="143" y="158">
+    <field customattributes="" name="NAME">calendarEvent</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="}y6W9_,15ThRD%MJ`[#p" id="#6g37%TaaC.#FF:kRo}N" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAlterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20alterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.changeValueOfField','cronapi.screen.changeValueOfField')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor"/>
+        </mutation>
+        <value name="ARG0">
+          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="}y6W9_,15ThRD%MJ`[#p" id="`v;Q}}cM5,z#zde3GVxj" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+            <field customattributes="" name="SELECT">vars.valueCurrentDateCalendar</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="}y6W9_,15ThRD%MJ`[#p" id="m,(d~X?wBa4E[dW~%vlf" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field customattributes="" name="TEXT"/>
+          </shadow>
+        </value>
+        <next>
+          <block asynccall="false" colour="#fca03b" datasourcetype="" dependencyby="}y6W9_,15ThRD%MJ`[#p" id="FupAqV=7H[}+,Mr:z;wu" origintype="procedures_callnoreturn" output="false" tooltip="Executa a função definida pelo usuário &quot;getsCalendar&quot;." type="procedures_callnoreturn">
+            <mutation name="getsCalendar" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="undefined" name="action"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="}y6W9_,15ThRD%MJ`[#p" id="CNmc~zo)FT0]D@kQd2)R" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field customattributes="" name="TEXT">current</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" id=";oo_r/hzcrX=I#t+IX6=" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-227" y="358">
+    <mutation>
+      <arg id="152f9edb" name="action"/>
+    </mutation>
+    <field customattributes="" name="NAME">getsCalendar</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="Ps!$f1J4sivNp}K9;-5R" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">values</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#917731" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="{`nvf%Lh_tyJ(xw(nKzK" multilayer="false" namespace="cronapi.map.createMap" origintype="maps_create_with" output="true" returntype="ObjectType.MAP" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20Mapa%20com%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20um%20objeto%20Mapa%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Valor(es)%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Valores%20a%20serem%20adicionados%20no%20Mapa%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.map.createMap','cronapi.map.createMap')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="maps_create_with">
+            <mutation name="{{cronapi.map.createMap}}">
+              <arg name="current"/>
+              <arg name="min"/>
+              <arg name="max"/>
+              <arg name="dates"/>
+              <arg name="results"/>
+            </mutation>
+            <value name="ARG0">
+              <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="~f|Te}#ReTl7s1,,wv0b" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="YU~2LC3B*?O8}q~1Kme#" multilayer="true" namespace="cronapi.screen.fieldFromScreen" origintype="form_fieldscreen_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20nome%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20nome%20do%20campo%20(%C3%89%20necess%C3%A1rio%20associar%20o%20bloco%20ao%20formul%C3%A1rio)%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.fieldFromScreen','cronapi.screen.fieldFromScreen')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="form_fieldscreen_callreturn">
+                    <field customattributes="" name="SELECT">vars.valueCurrentDateCalendar</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="Z`5ibe*C6XDIMWC$tV[N" multilayer="false" namespace="cronapi.calendar.getCalendarValue" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20data%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EObt%C3%A9m%20o%20valor%20da%20sele%C3%A7%C3%A3o%20%C3%BAnica%20atual%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.getCalendarValue','cronapi.calendar.getCalendarValue')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.calendar.getCalendarValue}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="/Si7:yOX4LxKTVoxQ+(K" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="6UuVp74px9/*^d.2PSBi" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="i2%l0/3EpP$Pg*6I{;`{" multilayer="true" namespace="cronapi.screen.fieldFromScreen" origintype="form_fieldscreen_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20nome%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20nome%20do%20campo%20(%C3%89%20necess%C3%A1rio%20associar%20o%20bloco%20ao%20formul%C3%A1rio)%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.fieldFromScreen','cronapi.screen.fieldFromScreen')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="form_fieldscreen_callreturn">
+                    <field customattributes="" name="SELECT">vars.valueMinDateCalendar</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id=":tl[2UbQ_9RXus}x8.21" multilayer="false" namespace="cronapi.calendar.getCalendarMin" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20data%20m%C3%ADnima%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EObt%C3%A9m%20a%20data%20m%C3%ADnima%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.getCalendarMin','cronapi.calendar.getCalendarMin')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.calendar.getCalendarMin}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="~;Er;C/^$h|R/U__$y2O" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG2">
+              <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="b}Go@)x`!5t8dAyD}):1" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="Ffe,4rd6IQX#d@z:Y=J`" multilayer="true" namespace="cronapi.screen.fieldFromScreen" origintype="form_fieldscreen_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20nome%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20nome%20do%20campo%20(%C3%89%20necess%C3%A1rio%20associar%20o%20bloco%20ao%20formul%C3%A1rio)%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.fieldFromScreen','cronapi.screen.fieldFromScreen')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="form_fieldscreen_callreturn">
+                    <field customattributes="" name="SELECT">vars.valueMaxDateCalendar</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="_S-wZo`hjj~4L{C%u57F" multilayer="false" namespace="cronapi.calendar.getCalendarMax" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20data%20m%C3%A1xima%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EObt%C3%A9m%20a%20data%20m%C3%A1xima%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.getCalendarMax','cronapi.calendar.getCalendarMax')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.calendar.getCalendarMax}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="*0`{k;[;[EcU#co3+6dL" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="NVu2e9,J#G;dRg`TL@al" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="BZA]TIfuO?.c/M0E4$2H" multilayer="true" namespace="cronapi.screen.fieldFromScreen" origintype="form_fieldscreen_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20nome%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20nome%20do%20campo%20(%C3%89%20necess%C3%A1rio%20associar%20o%20bloco%20ao%20formul%C3%A1rio)%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.fieldFromScreen','cronapi.screen.fieldFromScreen')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="form_fieldscreen_callreturn">
+                    <field customattributes="" name="SELECT">vars.valueSelectDatesCalendar</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="false" colour="#fca03b" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="?^{BJ4z6vt9=~Jc03d2@" origintype="procedures_callreturn" output="true" tooltip="Executa a função definida pelo usuário &quot;formattedSelectDates&quot; e usa seu retorno." type="procedures_callreturn">
+                    <mutation name="formattedSelectDates" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="undefined" id="c5245f65" name="formatOption"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="*TBhn+~P=,.Y.T~Pp0bQ" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">DD/MM/YYYY</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG4">
+              <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="?M?C_,KRrtr@fa)g=lH;" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="h9Qdz*!4C7wZ:eHZZf.." multilayer="true" namespace="cronapi.screen.fieldFromScreen" origintype="form_fieldscreen_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20nome%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20nome%20do%20campo%20(%C3%89%20necess%C3%A1rio%20associar%20o%20bloco%20ao%20formul%C3%A1rio)%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.fieldFromScreen','cronapi.screen.fieldFromScreen')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="form_fieldscreen_callreturn">
+                    <field customattributes="" name="SELECT">vars.resultCalendar</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block asynccall="false" colour="#fca03b" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="3I|%2Ov{#Ap;nEEO2UXt" origintype="procedures_callreturn" output="true" tooltip="Executa a função definida pelo usuário &quot;formattedSelectDates&quot; e usa seu retorno." type="procedures_callreturn">
+                    <mutation name="formattedSelectDates" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="undefined" id="c5245f65" name="formatOption"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="6X$5RFVu#e46?@K9;wt%" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">YYYY/M/D</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#5ba55b" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="i6t-YW|g1w0lp9QdC.q?" origintype="controls_repeat_ext" output="false" tooltip="Faça algumas instruções várias vezes." type="controls_repeat_ext">
+            <value name="TIMES">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="b%7k4#5=}=%9Jg|xQa*%" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">2</field>
+              </shadow>
+            </value>
+            <statement name="DO">
+              <block asynccall="false" colour="#934848" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="Y6uT@:iuQZqr1Z:?*.S8" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAlterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20alterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.changeValueOfField','cronapi.screen.changeValueOfField')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="j~0S%H#K;jEI`qc%.dl1" origintype="lists_getIndex" output="true" tooltip="function(){var mode=thisBlock.getFieldValue(&quot;MODE&quot;),where=thisBlock.getFieldValue(&quot;WHERE&quot;),tooltip=&quot;&quot;;switch(mode+&quot; &quot;+where){case&quot;GET FROM_START&quot;:case&quot;GET FROM_END&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_FROM;break;case&quot;GET FIRST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_FIRST;break;case&quot;GET LAST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_LAST;break;case&quot;GET RANDOM&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_RANDOM;break;case&quot;GET_REMOVE FROM_START&quot;:case&quot;GET_REMOVE FROM_END&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FROM;break;case&quot;GET_REMOVE FIRST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FIRST;break;case&quot;GET_REMOVE LAST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_LAST;break;case&quot;GET_REMOVE RANDOM&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_RANDOM;break;case&quot;REMOVE FROM_START&quot;:case&quot;REMOVE FROM_END&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_FROM;break;case&quot;REMOVE FIRST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_FIRST;break;case&quot;REMOVE LAST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_LAST;break;case&quot;REMOVE RANDOM&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_RANDOM;}if(&quot;FROM_START&quot;==where||&quot;FROM_END&quot;==where){var msg=&quot;FROM_START&quot;==where?Blockly.Msg.LISTS_INDEX_FROM_START_TOOLTIP:Blockly.Msg.LISTS_INDEX_FROM_END_TOOLTIP;tooltip+=&quot;  &quot;+msg.replace(&quot;%1&quot;,thisBlock.workspace.options.oneBasedIndex?&quot;#1&quot;:&quot;#0&quot;)}return tooltip}" type="lists_getIndex">
+                    <mutation at="false" statement="false"/>
+                    <field customattributes="" name="MODE">GET</field>
+                    <field customattributes="" name="WHERE">FIRST</field>
+                    <value name="VALUE">
+                      <block asynccall="false" colour="#917731" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="_%#fUd]L3]15A$n@B*gS" multilayer="false" namespace="cronapi.map.getMapValueByKey" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Campo%20do%20Mapa%20por%20Chave%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20Campo%20do%20Mapa%20por%20Chave%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%20:%20Mapa%3C/span%3E%3Cdiv%3E%20Mapa%20que%20ser%C3%A1%20buscado%20o%20Campo%3C/div%3E%3Cspan%3E%20-%20Chave%20:%20Texto%3C/span%3E%3Cdiv%3E%20Chave%20que%20ser%C3%A1%20buscado,%20ex:%20genero%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.map.getMapValueByKey','cronapi.map.getMapValueByKey')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                        <mutation name="{{cronapi.map.getMapValueByKey}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.MAP" name="Mapa"/>
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Chave"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="pzd@ZttpHgh~WI,Nf@5a" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">values</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="SIqeuZiO|tD~r|c]_f-g" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field customattributes="" name="TEXT"/>
+                          </shadow>
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="}.J|RG@){qP*;:3EN(h=" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">action</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="=*]ZgcPP*lnCXH2RorCY" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field customattributes="" name="TEXT"/>
+                  </shadow>
+                  <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="RlMG_rSGV1#yS|6$qG+T" origintype="lists_getIndex" output="true" tooltip="function(){var mode=thisBlock.getFieldValue(&quot;MODE&quot;),where=thisBlock.getFieldValue(&quot;WHERE&quot;),tooltip=&quot;&quot;;switch(mode+&quot; &quot;+where){case&quot;GET FROM_START&quot;:case&quot;GET FROM_END&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_FROM;break;case&quot;GET FIRST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_FIRST;break;case&quot;GET LAST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_LAST;break;case&quot;GET RANDOM&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_RANDOM;break;case&quot;GET_REMOVE FROM_START&quot;:case&quot;GET_REMOVE FROM_END&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FROM;break;case&quot;GET_REMOVE FIRST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FIRST;break;case&quot;GET_REMOVE LAST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_LAST;break;case&quot;GET_REMOVE RANDOM&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_RANDOM;break;case&quot;REMOVE FROM_START&quot;:case&quot;REMOVE FROM_END&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_FROM;break;case&quot;REMOVE FIRST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_FIRST;break;case&quot;REMOVE LAST&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_LAST;break;case&quot;REMOVE RANDOM&quot;:tooltip=Blockly.Msg.LISTS_GET_INDEX_TOOLTIP_REMOVE_RANDOM;}if(&quot;FROM_START&quot;==where||&quot;FROM_END&quot;==where){var msg=&quot;FROM_START&quot;==where?Blockly.Msg.LISTS_INDEX_FROM_START_TOOLTIP:Blockly.Msg.LISTS_INDEX_FROM_END_TOOLTIP;tooltip+=&quot;  &quot;+msg.replace(&quot;%1&quot;,thisBlock.workspace.options.oneBasedIndex?&quot;#1&quot;:&quot;#0&quot;)}return tooltip}" type="lists_getIndex">
+                    <mutation at="false" statement="false"/>
+                    <field customattributes="" name="MODE">GET</field>
+                    <field customattributes="" name="WHERE">LAST</field>
+                    <value name="VALUE">
+                      <block asynccall="false" colour="#917731" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="z3RQTBN3:XN(dIvMD3e0" multilayer="false" namespace="cronapi.map.getMapValueByKey" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Campo%20do%20Mapa%20por%20Chave%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20Campo%20do%20Mapa%20por%20Chave%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%20:%20Mapa%3C/span%3E%3Cdiv%3E%20Mapa%20que%20ser%C3%A1%20buscado%20o%20Campo%3C/div%3E%3Cspan%3E%20-%20Chave%20:%20Texto%3C/span%3E%3Cdiv%3E%20Chave%20que%20ser%C3%A1%20buscado,%20ex:%20genero%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.map.getMapValueByKey','cronapi.map.getMapValueByKey')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                        <mutation name="{{cronapi.map.getMapValueByKey}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.MAP" name="Mapa"/>
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Chave"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="B4[]Z+LL_p9e0b@Mpq}4" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">values</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="SIqeuZiO|tD~r|c]_f-g" origintype="text" output="true" tooltip="function () { [native code] }" type="text" xmlns="">
+                            <field customattributes="" name="TEXT"/>
+                          </shadow>
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="}W0*cYfGTEpre|3r0fpk" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">action</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="jW?.-M{$uU05A[B4V{-@" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                    <field customattributes="" name="VAR">action</field>
+                    <value name="VALUE">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby=";oo_r/hzcrX=I#t+IX6=" id="$B9GYn+fCKf,DFO7AuK~" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">results</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block asynccall="false" colour="#fca03b" datasourcetype="" id="C:h`JpZ)=3!c9RNyp~qd" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="66" y="578">
+    <mutation>
+      <arg id="ae4b60b3" name="type"/>
+      <arg id="2805771c" name="date"/>
+      <arg id="f6049db3" name="secondDate"/>
+    </mutation>
+    <field customattributes="" name="NAME">setsCalendar</field>
+    <statement name="STACK">
+      <block asynccall="false" collapsed="true" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="*WUAYVaz@m0Ylm/P+l:$" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field customattributes="" name="VAR">formattedDate</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="7/]JY28gl@#uGEcZME;3" multilayer="false" namespace="cronapi.dateTime.newDate" origintype="procedures_callreturn" output="true" returntype="ObjectType.DATETIME" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ENova%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20criar%20nova%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Ano%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20M%C3%AAs%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Dia%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Hora%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Minuto%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Segundo%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.newDate','cronapi.dateTime.newDate')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.dateTime.newDate}}" return-raw-type="undefined">
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Ano"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Mês"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Dia"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Hora"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Minuto"/>
+              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Segundo"/>
+            </mutation>
+            <value name="ARG0">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="[V*f:XPqp{|,s=74!xX~" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">2044</field>
+              </shadow>
+              <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="2ttEp65RJotbRX,K?f/-" multilayer="false" namespace="cronapi.dateTime.getYear" origintype="procedures_callreturn" output="true" returntype="ObjectType.LONG" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20ano%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20ano%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Inteiro%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getYear','cronapi.dateTime.getYear')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.dateTime.getYear}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="xRY]scrL%l]OMVoqm3H^" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">date</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG1">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="c*9ZUPzgk]a/=5La=Xgt" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">5</field>
+              </shadow>
+              <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="bR)`PZJT@+o0F!)qQhx*" multilayer="false" namespace="cronapi.dateTime.getMonth" origintype="procedures_callreturn" output="true" returntype="ObjectType.LONG" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20m%C3%AAs%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20m%C3%AAs%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Inteiro%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getMonth','cronapi.dateTime.getMonth')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.dateTime.getMonth}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="5hsl31K=Thv}_t9+{H]_" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">date</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG2">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="a3R2w$Bp6W;j4h`^]T11" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">13</field>
+              </shadow>
+              <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id=":_/xG%+*i8!a[$-Jx.6E" multilayer="false" namespace="cronapi.dateTime.getDay" origintype="procedures_callreturn" output="true" returntype="ObjectType.LONG" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20dia%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20dia%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Inteiro%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getDay','cronapi.dateTime.getDay')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.dateTime.getDay}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                </mutation>
+                <value name="ARG0">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="j|D57k(8Z,*Om:7[VGI_" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field customattributes="" name="VAR">date</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ARG3">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="BRv}@ZV[2n2HX=(q=i5V" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="ARG4">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="a7J4xq[ziBcXq+F;},]q" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="ARG5">
+              <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="}.Au7:lf@s;Cnm}0%2PS" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field customattributes="" name="NUM">0</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" collapsed="true" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="$p!]Cc!;Ovi?OKW,PKDl" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+            <field customattributes="" name="VAR">formattedSecondDate</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="B]%wdRTB?J]A`vfBZbA:" multilayer="false" namespace="cronapi.dateTime.newDate" origintype="procedures_callreturn" output="true" returntype="ObjectType.DATETIME" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ENova%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20criar%20nova%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Ano%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20M%C3%AAs%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Dia%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Hora%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Minuto%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Segundo%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.newDate','cronapi.dateTime.newDate')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.dateTime.newDate}}" return-raw-type="undefined">
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Ano"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Mês"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Dia"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Hora"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Minuto"/>
+                  <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Segundo"/>
+                </mutation>
+                <value name="ARG0">
+                  <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="[V*f:XPqp{|,s=74!xX~" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number" xmlns="">
+                    <field customattributes="" name="NUM">2044</field>
+                  </shadow>
+                  <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="P:~TzXrsxaEi$4hfmyM?" multilayer="false" namespace="cronapi.dateTime.getYear" origintype="procedures_callreturn" output="true" returntype="ObjectType.LONG" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20ano%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20ano%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Inteiro%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getYear','cronapi.dateTime.getYear')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.dateTime.getYear}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id=".rbPM8:xq3$5Zt8*cepn" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">secondDate</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="c*9ZUPzgk]a/=5La=Xgt" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number" xmlns="">
+                    <field customattributes="" name="NUM">5</field>
+                  </shadow>
+                  <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="zDe-I3v/n;(%8(@:Xt;W" multilayer="false" namespace="cronapi.dateTime.getMonth" origintype="procedures_callreturn" output="true" returntype="ObjectType.LONG" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20m%C3%AAs%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20m%C3%AAs%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Inteiro%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getMonth','cronapi.dateTime.getMonth')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.dateTime.getMonth}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="sn#VIQ;Ak_@oD%TdD~Pl" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">secondDate</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="a3R2w$Bp6W;j4h`^]T11" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">13</field>
+                  </shadow>
+                  <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="Ls1NN]#8Y0N)D#omwc?!" multilayer="false" namespace="cronapi.dateTime.getDay" origintype="procedures_callreturn" output="true" returntype="ObjectType.LONG" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20dia%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20dia%20da%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Inteiro%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getDay','cronapi.dateTime.getDay')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                    <mutation name="{{cronapi.dateTime.getDay}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.DATETIME" name="Data"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="n4@6dv4d~P*Nl,zq0gvp" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">secondDate</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="$q*WpFCA#2jJAEg,/Mn5" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="ARG4">
+                  <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="7Eb6;t3ZKZSM|g97Yh7Q" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="ARG5">
+                  <shadow asynccall="false" colour="#5b67a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="R(7I1c^wcnK,r;cd806H" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field customattributes="" name="NUM">0</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block asynccall="false" colour="#5b80a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="]21:-$`8yVAZ/CZ8VaoE" origintype="controls_if" output="false" tooltip="function () { [native code] }" type="controls_if">
+                <mutation elseif="4"/>
+                <value name="IF0">
+                  <block asynccall="false" colour="#5b80a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="lnrLX@-ez:QP7n#=yQb]" origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                    <field customattributes="" name="OP">EQ</field>
+                    <value name="A">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="_S4F_BgBq{3fnt)wT#_W" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">type</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="VX$,`DVi@?^72;Z=^SFa" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">current</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="gvpuFRdx+d`LQ)VPsjII" multilayer="false" namespace="cronapi.calendar.setCalendarValue" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDefinir%20data%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EDefine%20o%20valor%20da%20sele%C3%A7%C3%A3o%20%C3%BAnica%20atual%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.setCalendarValue','cronapi.calendar.setCalendarValue')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                    <mutation name="{{cronapi.calendar.setCalendarValue}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Valor"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id=":#!W.+l=^2Ry(|Z+|cM~" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block asynccall="false" colour="#7d9137" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="p^zDR3;^Tn6`6Q:d~%*q" multilayer="false" namespace="cronapi.dateTime.getNow" origintype="procedures_callreturn" output="true" returntype="ObjectType.DATETIME" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20data%20e%20hora%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20data%20e%20hora%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.dateTime.getNow','cronapi.dateTime.getNow')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                        <mutation name="{{cronapi.dateTime.getNow}}" return-raw-type="undefined"/>
+                      </block>
+                    </value>
+                    <next>
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="+@}UOWvgBxa?`z%Ukr|^" multilayer="true" namespace="cronapi.screen.changeValueOfField" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAlterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20alterar%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.screen.changeValueOfField','cronapi.screen.changeValueOfField')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                        <mutation name="{{cronapi.screen.changeValueOfField}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="_55CHK}ek-GhUuzf1{!/" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                            <field customattributes="{&quot;fieldSelectedTypeIndex&quot;:0}" name="SELECT">vars.valueConfigCurrentDateCalendar</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <shadow asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="=b/|i9p)8Q]%bhls{ZpW" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field customattributes="" name="TEXT"/>
+                          </shadow>
+                          <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="^I!q1zox!P.csS,%/YgZ" multilayer="false" namespace="cronapi.calendar.getCalendarValue" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20data%20atual%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EObt%C3%A9m%20o%20valor%20da%20sele%C3%A7%C3%A3o%20%C3%BAnica%20atual%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.getCalendarValue','cronapi.calendar.getCalendarValue')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                            <mutation name="{{cronapi.calendar.getCalendarValue}}" return-raw-type="undefined">
+                              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                            </mutation>
+                            <value name="ARG0">
+                              <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="I#(^uwEy.rewsvV9(~q}" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                                <field customattributes="" name="SELECT">calendar</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <value name="IF1">
+                  <block asynccall="false" colour="#5b80a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="cgGw@lIO,l$4,;8N4:#}" origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                    <field customattributes="" name="OP">EQ</field>
+                    <value name="A">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="~A[sCAA#b~8m5Ts0o|BT" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">type</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="slML$B*7Y`z{gX$z*.]b" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">max</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO1">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="02QhYM7z)9x1@^l+Ti{I" multilayer="false" namespace="cronapi.calendar.setCalendarMax" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDefinir%20data%20m%C3%A1xima%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EDefine%20a%20data%20m%C3%A1xima%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.setCalendarMax','cronapi.calendar.setCalendarMax')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                    <mutation name="{{cronapi.calendar.setCalendarMax}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Valor"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="LQFsi$xmZ;xLb0qo+i{k" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="VRp2)R$FH+D|5d/1|GCQ" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">formattedDate</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <value name="IF2">
+                  <block asynccall="false" colour="#5b80a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="eqVKYyUv.z6AT_;rr2NH" origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                    <field customattributes="" name="OP">EQ</field>
+                    <value name="A">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="FvNr`nlY[E;1sS)MGV=~" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">type</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="X60aQeD*^{@AH4ZY~c/," origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">min</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO2">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="G-v`2~;(M?wpxov,|=2U" multilayer="false" namespace="cronapi.calendar.setCalendarMin" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDefinir%20data%20m%C3%ADnima%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EDefine%20a%20data%20m%C3%ADnima%20do%20calend%C3%A1rio.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.setCalendarMin','cronapi.calendar.setCalendarMin')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                    <mutation name="{{cronapi.calendar.setCalendarMin}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Valor"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="(hS]k9wa-l22W_-cW2O]" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="]Vvl.CqD.3Z}HUb4ZmcA" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">formattedDate</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <value name="IF3">
+                  <block asynccall="false" colour="#5b80a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="AXDT?371ZbcbtX1%rIIL" origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                    <field customattributes="" name="OP">EQ</field>
+                    <value name="A">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="tP~XwGH}B7L%G,Dt:%+o" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">type</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="B9DbdhSXWnG_q^ttYCi4" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">dates</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO3">
+                  <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="j2*xln=7];-x{w-h=fCp" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+                    <field customattributes="" name="VAR">dates</field>
+                    <value name="VALUE">
+                      <block asynccall="false" colour="#745ba5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="Z)drP--`|Yuj+fP2Sx2;" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                        <mutation items="2"/>
+                        <value name="ADD0">
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="`VfWp]y{P*qhrk?mU7vs" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">formattedDate</field>
+                          </block>
+                        </value>
+                        <value name="ADD1">
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="0X`CUip$SCJy]6[#?XU+" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">formattedSecondDate</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="_H?|wX],hg4SEU4gLy9k" multilayer="false" namespace="cronapi.calendar.setCalendarSelectDates" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ESelecionar%20datas%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3ESeleciona%20uma%20lista%20de%20datas%20do%20calend%C3%A1rio.%20(Dispon%C3%ADvel%20apenas%20caso%20o%20modo%20de%20sele%C3%A7%C3%A3o%20do%20calend%C3%A1rio%20esteja%20definido%20para%20'M%C3%BAltipla')%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.setCalendarSelectDates','cronapi.calendar.setCalendarSelectDates')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                        <mutation name="{{cronapi.calendar.setCalendarSelectDates}}" return-raw-type="undefined">
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Valor"/>
+                        </mutation>
+                        <value name="ARG0">
+                          <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="LHgRAGQg_E2hT{,j/jyg" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                            <field customattributes="" name="SELECT">calendar</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="c.:t_u!s?P83wqh:[iv0" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field customattributes="" name="VAR">dates</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <value name="IF4">
+                  <block asynccall="false" colour="#5b80a5" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="p,p`Kpr@oBJ-W~+XV3#e" origintype="logic_compare" output="true" tooltip="function () { [native code] }" type="logic_compare">
+                    <field customattributes="" name="OP">EQ</field>
+                    <value name="A">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="Sk{GD^#RpK37^ZmucY9+" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">type</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="5+d:L~N-+nxDS!DV2orz" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                        <field customattributes="" name="TEXT">update</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO4">
+                  <block asynccall="true" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="jEV/*39qllq=H@0%#DdG" multilayer="false" namespace="cronapi.calendar.navigateCalendarTo" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ENavegar%20no%20calend%C3%A1rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EMuda%20a%20vis%C3%A3o%20atual%20do%20calend%C3%A1rio%20para%20o%20valor%20definido.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Valor%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Vis%C3%A3o%20do%20calend%C3%A1rio%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20onclick=%22Blockly.Search.goToDoc('https://ide.cronapp.io/help?type=blockly&amp;amp;id=cronapi.calendar.navigateCalendarTo','cronapi.calendar.navigateCalendarTo')%22%20href=%22javascript:void(0)%22%3EAjuda%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+                    <mutation name="{{cronapi.calendar.navigateCalendarTo}}" return-raw-type="undefined">
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Id"/>
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Valor"/>
+                      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Visão do calendário"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="j/R`L#K#=F`nnmS={k7[" origintype="ids_from_screen" output="true" type="ids_from_screen">
+                        <field customattributes="" name="SELECT">calendar</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="H,q7a*yFDd#+2J+h}/N0" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                        <field customattributes="" name="VAR">formattedDate</field>
+                      </block>
+                    </value>
+                    <value name="ARG2">
+                      <block asynccall="false" colour="#8f1a36" datasourcetype="" dependencyby="C:h`JpZ)=3!c9RNyp~qd" id="sNQ48n7*a{l*s{+Kg?:f" origintype="util_dropdown" output="true" type="util_dropdown">
+                        <mutation>
+                          <arg name="month" value="Mês"/>
+                          <arg name="year" value="Ano"/>
+                          <arg name="decade" value="Década"/>
+                          <arg name="century" value="Século"/>
+                        </mutation>
+                        <field customattributes="" name="SELECT">month</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</blockly>

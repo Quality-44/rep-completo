@@ -1,0 +1,90 @@
+{
+  "customId": "cities",
+  "queryName": "Gerenciador de Cidades",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "City",
+  "entityFullName": "app.entity.City",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "City",
+        "alias": "c",
+        "namespace": "app.entity.City"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "c"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": false,
+    "FILTERAuthorities": null,
+    "COUNT": false,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "name": null,
+    "state": null,
+    "state_name": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "name": null,
+    "state": null,
+    "state_name": null
+  },
+  "security": {
+    "id": null,
+    "name": null,
+    "state": null,
+    "state_name": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query417705/",
+  "audit": false,
+  "swagger": true,
+  "library": false
+}

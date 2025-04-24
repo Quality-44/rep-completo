@@ -1,0 +1,37 @@
+<ion-view class="pane" role="region" style="">
+  <ion-header-bar role="heading" class="crn-ion-header-bar bar bar-default" xattr-theme="bar-default" data-component="crn-ion-header-bar" id="crn-ion-header-bar-home-logged">
+    <div class="buttons buttons-left header-item" data-component="crn-header-button" id="crn-header-button-1">
+      <button aria-labelledby="left_navicon_sr" class="button button-clear component-holder" menu-toggle="left">
+        <i class="icon ion-navicon"></i>
+        <span id="left_navicon_sr" class="sr-only">{{'Accessibility.Button.Aria.Label.NavIcon' | translate}}</span>
+      </button>
+    </div>
+    <h1 class="title" align-title="text-align: center;" style="text-align: center;">{{'Home.view.Home' | translate }}</h1>
+    <div aria-labelledby="right_navicon_sr" class="buttons buttons-right header-item" data-component="crn-header-button" id="crn-header-button-2">
+      <button class="button button-clear component-holder" menu-toggle="right">
+        <i class="icon ion-navicon"></i>
+        <span id="right_navicon_sr" class="sr-only">{{'Accessibility.Button.Aria.Label.NavIcon' | translate}}</span>
+      </button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="scroll-content has-header has-footer has-footer-tabs" data-component="crn-ion-content">
+  <h1 class="col-xs-12 text-center h3" xattr-position="text-center" xattr-type="h3" data-component="crn-heading" id="crn-heading-233909" style="margin-top:20px;">Projeto padrão</h1><img alt="" src="assets/dev.png" class="col-xs-12" style="object-fit: none;" xattr-position="" width="" height="150" object-fit="object-fit: none;" data-component="crn-image" id="crn-image-673874"><h1 class="col-xs-12 h5 text-left" xattr-position="text-left" xattr-type="h5" data-component="crn-heading" id="crn-heading-438538">Em desenvolvimento...</h1></ion-content><ion-tabs class="tabs-striped icon-size-large component-holder background-positive tabs-icon-balanced" background-color="background-positive" tabs-color="tabs-icon-balanced" tabs-size="icon-size-large" data-component="crn-tabs-icon-only" id="crn-tabs-icon-only-558247" on-hold="$evt('cronapi.screen.changeView(\'#/app/logged/forms/config\', [])')">
+    <div class="tabs">
+        <a class="tab-item active" title="Home" data-component="crn-tabs-icon-only-item" href="">
+            <i class="icon ion-home"></i>
+            <span>Home</span>
+        </a>
+        <a class="tab-item" title="User" data-component="crn-tabs-icon-only-item" href="" on-hold="" ng-click="$evt('cronapi.screen.changeView(\'#/app/logged/user\', [])')">
+            <i class="icon fa fa-user"></i>
+            <span>User</span>
+        </a>
+        <a class="tab-item" title="Config" data-component="crn-tabs-icon-only-item" href="" ng-click="cronapi.screen.changeView('#/app/logged/forms/config', [])">
+            <i class="icon ion-gear-a"></i>
+            <span>Config</span>
+        </a>
+    </div>
+</ion-tabs>
+</ion-view>
+ 
+
+ 
