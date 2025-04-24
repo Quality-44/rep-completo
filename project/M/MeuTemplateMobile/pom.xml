@@ -3,20 +3,20 @@
     <parent>
         <artifactId>cronapp-framework-spring</artifactId>
         <groupId>io.cronapp</groupId>
-        <version>4.1.0-SNAPSHOT</version>
+        <version>4.1.0-RC.1</version>
         <relativePath></relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.cronapp.apps.meutemplatemobile</groupId>
-    <artifactId>io.cronapp.apps.meutemplatemobile</artifactId>
+    <groupId>io.cronapp.apps.templatemw</groupId>
+    <artifactId>io.cronapp.apps.templatemw</artifactId>
     <packaging>war</packaging>
-    <name>MeuTemplateMobile</name>
+    <name>template-mw</name>
     <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
     <build>
         <resources>
             <resource>
-                <directory>src/main/java</directory>
+                <directory>src/main/resources</directory>
                 <includes>
                     <include>**</include>
                 </includes>
@@ -25,7 +25,7 @@
                 </excludes>
             </resource>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>src/main/java</directory>
                 <includes>
                     <include>**</include>
                 </includes>
@@ -155,10 +155,8 @@
         <project.cronospass.resource mimetype="folder/servercontext">config</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src/main/java</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/web">src/main/mobileapp/www</project.cronospass.resource>
-        <project.cronospass.resource mimetype="folder/src">src/main/resources</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/web">src/main/webapp</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/regular">src/test</project.cronospass.resource>
-        <project.cronospass.resource mimetype="folder/regular">src/test/java</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">src/test/java</project.cronospass.resource>
     </properties>
 </project>
